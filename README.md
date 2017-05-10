@@ -12,6 +12,7 @@ Blockmarket is intended to be a complete replacement for all of the [Syscoin QT 
 * No address book
 * No search
 * No reselling
+* Offer images use placeholder images for now (related to [this issue](https://github.com/syscoin/blockmarket-desktop-public/issues/19)
 
 **Note**: Blockmarket Desktop is a beta product and thus is locked to testnet. Bugs, issues, areas of improvement, etc. are all **expected** in this phase of product development. The focus of Beta 1 is cross-platform testing on a larger subset of operating systems (Mac/Windows) and ensuring core functionalty works on those operating systems. All features not included in a given beta are still part of Syscoin core and will be present in subsequent beta release and the final release.
 
