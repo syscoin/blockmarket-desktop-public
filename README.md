@@ -4,7 +4,7 @@ This is the public issue and release space for [Blockchain Foundry's](http://blo
 
 Blockmarket is intended to be a complete replacement for all of the [Syscoin QT Wallet's](http://syscoin.org) consumer facing functionality, making it more useable and providing new features such as email notification, etc as well.
 
-**Blockmarket Desktop Status**: *Beta 1 Release Pending*
+**Blockmarket Desktop Status**: *[Beta 1 has been released](https://medium.com/@BlockchainFoundry/blockmarket-for-desktop-beta1-is-live-5841b68233f3)* | [Download Beta 1](https://github.com/syscoin/blockmarket-desktop-public/releases/tag/1.0.0-beta1)
 
 **Blockmarket Desktop Beta 1 Feature Status**: 
 * No Escrow interfaces
