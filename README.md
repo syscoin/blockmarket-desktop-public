@@ -19,3 +19,13 @@ Blockmarket is intended to be a complete replacement for all of the [Syscoin QT 
 If you run into a bug, problem, or are which you feel could be improved please [check to see if the issue has already been reported](https://github.com/syscoin/blockmarket-desktop-public/issues), if it has not please [log a new issue](https://github.com/syscoin/blockmarket-desktop-public/issues/new). 
 
 To help check and verify fixed issues please [visit this link for issues fixed in Beta2](https://github.com/syscoin/blockmarket-desktop-public/issues?q=is%3Aissue+is%3Aopen+label%3A%22retest+in+beta2%22).
+
+# Blockmarket Offer JSON Spec
+Blockmarket stores offer data as a URI-encoded JSON object within the offer.description field in the following format:
+
+```javascript
+interface OfferDescription {
+  description: string;
+  images: string[];
+}
+```
