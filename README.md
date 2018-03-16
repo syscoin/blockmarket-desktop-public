@@ -22,3 +22,27 @@ interface OfferDescription {
   images: string[];
 }
 ```
+
+# SHA-1/SHA-256 checksums
+
+Releases will be published with SHA-1 and SHA-256 checksum string.
+Here is how to get or check the checksums of a downloaded file.
+
+**macOs**
+
+SHA-1: `openssl sha -sha1 Blockmarket-1.2.1.dmg`
+
+SHA-256: `openssl sha -sha256 Blockmarket-1.2.1.dmg`
+
+or
+
+SHA-1: `shasum -a 1 Blockmarket-1.2.1.dmg`
+
+SHA-256: `shasum -a 256 Blockmarket-1.2.1.dmg`
+
+**Windows**
+
+SHA-1: `certUtil -hashfile Blockmarket Setup 1.2.1.exe sha1`
+
+SHA-256: `certUtil -hashfile Blockmarket Setup 1.2.1.exe sha256`
+
