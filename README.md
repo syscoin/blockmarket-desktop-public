@@ -4,7 +4,7 @@ This is the public issue and release space for [Blockchain Foundry's](http://blo
 
 Blockmarket is intended to be a complete replacement for all of the [Syscoin QT Wallet's](http://syscoin.org) consumer facing functionality outside of masternode-functions.
 
-### **Blockmarket Desktop Status**: 3.1.3 | [Download 3.1.3](https://github.com/syscoin/blockmarket-desktop-public/releases/tag/3.1.3)
+### **Blockmarket Desktop Status**: 3.2.0 | [Download 3.2.0](https://github.com/syscoin/blockmarket-desktop-public/releases/tag/3.2.0)
 
 # Help By Reporting Issues
 If you run into a bug, problem, or are which you feel could be improved please [check to see if the issue has already been reported](https://github.com/syscoin/blockmarket-desktop-public/issues), if it has not please [log a new issue](https://github.com/syscoin/blockmarket-desktop-public/issues/new). 
@@ -20,26 +20,20 @@ interface OfferDescription {
 }
 ```
 
-# SHA-1/SHA-256 checksums
+# SHA-256 checksums
 
-Releases will be published with SHA-1 and SHA-256 checksum string.
+Releases will be published with SHA-256 checksum string.
 Here is how to get or check the checksums of a downloaded file.
 
 **macOs**
 
-SHA-1: `openssl sha -sha1 Blockmarket-1.2.1.dmg`
-
-SHA-256: `openssl sha -sha256 Blockmarket-1.2.1.dmg`
+SHA-256: `openssl sha -sha256 Blockmarket-3.2.0.dmg`
 
 or
 
-SHA-1: `shasum -a 1 Blockmarket-1.2.1.dmg`
-
-SHA-256: `shasum -a 256 Blockmarket-1.2.1.dmg`
+SHA-256: `shasum -a 256 Blockmarket-3.2.0.dmg`
 
 **Windows**
 
-SHA-1: `certUtil -hashfile Blockmarket Setup 1.2.1.exe sha1`
-
-SHA-256: `certUtil -hashfile Blockmarket Setup 1.2.1.exe sha256`
+SHA-256: `certUtil -hashfile Blockmarket Setup 3.2.0.exe sha256`
 
