@@ -1,4 +1,4 @@
-# Blockmarket Desktop Public
+# Blockmarket Desktop Public (DEPRECATED - DO NOT RUN)
 
 This is the public issue and release space for [Blockchain Foundry's](http://blockchainfoundry.co) Blockmarket product. Blockmarket's source code is proprietary but this repository serves as a location for issue tracking and releases for Blockmarket Desktop binaries.
 
